@@ -1,0 +1,16 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Red.uss?fileID=7433441132597879392&amp;guid=c4b9af5c7ce1e422489aec1b19084edd&amp;type=3#Red" />
+    <engine:VisualElement name="Contenedor" class="contenedor" style="flex-grow: 1;">
+        <engine:VisualElement name="PanelIzquierdo" class="panel-izquierdo">
+            <engine:Button text="Leer texto plano" name="BotonLeer" class="boton-leer" />
+            <engine:TextField label="Datos descargados:" placeholder-text="filler text" name="Resultado" class="resultado" />
+        </engine:VisualElement>
+        <engine:VisualElement name="PanelDerecho" class="panel-derecho" style="flex-grow: 1;">
+            <engine:VisualElement name="CapturaDatos" class="captura-datos" style="flex-grow: 1;">
+                <engine:TextField label="Nombre del usuario:" placeholder-text="filler text" name="Nombre" value="Roberto Mtz" style="font-size: 24px; -unity-text-align: upper-right;" />
+                <engine:IntegerField label="Puntos:" value="75" name="Puntos" style="font-size: 24px; -unity-text-align: upper-right;" />
+                <engine:Button text="Enviar datos" name="BotonEnviar" class="botn-envia" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
